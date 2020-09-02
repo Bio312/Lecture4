@@ -205,6 +205,14 @@ http://www.mattburns.co.uk/blog/2012/11/15/connecting-to-ec2-from-chromes-secure
 Note: if your TA has provided you with a temporary instance to use, this information will be different.
 
 
+
+# Part II. Look Around Your Instance.
+
+Type commands that are indented and in fixed width font into your terminal once connected﻿﻿﻿﻿﻿, like this:
+
+    echo Hello World
+
+
 # Part II: Gene Analysis in the Shell
 
 ## Exploring LOC5513668, as in Lab 1
@@ -217,6 +225,16 @@ Type commands that are indented and in fixed width font into your terminal once 
 
     echo Hello World
 
+list the directory contents
+
+    ls
+
+go to the lab 2 directory
+
+    cd labs/lab2
+
+Turn on your instances web server:
+
 
 ## Download the scaffold NW_001834348.1 annotation and sequence
 
@@ -224,7 +242,7 @@ list the directory contents
 
     ls
 
-go to the lab 1 directory
+go to the lab 2 directory
 
     cd labs/lab2
 
@@ -316,5 +334,6 @@ Once we have extracted only lines that contain our gene, let's further subset to
 
     grep exon LOC5513668.gff > LOC5513668.mrna.gff
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTA5MTg2NiwtMTcyNTQ0NDkwOF19
+eyJoaXN0b3J5IjpbLTE0NDIxNjY2ODgsLTczMTA5MTg2NiwtMT
+cyNTQ0NDkwOF19
 -->
