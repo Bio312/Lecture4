@@ -208,18 +208,7 @@ Note: if your TA has provided you with a temporary instance to use, this informa
 
 # Part II. Look Around Your Instance.
 
-Type commands that are indented and in fixed width font into your terminal once connected﻿﻿﻿﻿﻿, like this:
-
-    echo Hello World
-
-
-
-
-
-
-After you have connected to your instance through the terminal, let's try to conduct parts of Lab 1 from the command line.
-
-NOTE: If you are not able to launch your own instance from AWS, see your TA for instructions.
+Now that you have connected, let's look around.
 
 Type commands that are indented and in fixed width font into your terminal once connected﻿﻿﻿﻿﻿, like this:
 
@@ -229,9 +218,6 @@ list the directory contents
 
     ls
 
-go to the lab 2 directory
-
-    cd ~/labs/lab2
 
 How many directories are in the directory "labs"?
 
@@ -253,7 +239,8 @@ ls -d */
 
 Now count the number of directories.
 
-Answer this question with an integer.
+Answer this question with an integer on Blackboard.
+
 
 Turn on your instances web server:
 
@@ -348,6 +335,6 @@ Once we have extracted only lines that contain our gene, let's further subset to
 
     grep exon LOC5513668.gff > LOC5513668.mrna.gff
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODIzOTE2NDMsMTM1MzM1MjU2NiwtNz
-MxMDkxODY2LC0xNzI1NDQ0OTA4XX0=
+eyJoaXN0b3J5IjpbOTYyMzM0NzYyLDEzNTMzNTI1NjYsLTczMT
+A5MTg2NiwtMTcyNTQ0NDkwOF19
 -->
