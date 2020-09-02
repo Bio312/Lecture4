@@ -1,5 +1,5 @@
 # Lecture4
-# Lab 2: Gene Exploration on Amazon Web Services
+# Preparation for Lab 2: Gene Exploration on Amazon Web Services
 
 # Part I: Get Set up on AWS
 
@@ -311,5 +311,5 @@ Once we have extracted only lines that contain our gene, let's further subset to
 
     grep exon LOC5513668.gff > LOC5513668.mrna.gff
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjk1NTIyMF19
+eyJoaXN0b3J5IjpbLTE3MjU0NDQ5MDhdfQ==
 -->
