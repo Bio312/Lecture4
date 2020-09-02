@@ -197,6 +197,11 @@ You will probably select the following installer:
     
 7.  You should now be logged into your Instance
 
+## Alternatively, connect via a chrome extension
+See info here:
+http://www.mattburns.co.uk/blog/2012/11/15/connecting-to-ec2-from-chromes-secure-shell-using-only-a-pem-file/
+
+
 Note: if your TA has provided you with a temporary instance to use, this information will be different.
 
 
@@ -311,5 +316,5 @@ Once we have extracted only lines that contain our gene, let's further subset to
 
     grep exon LOC5513668.gff > LOC5513668.mrna.gff
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjU0NDQ5MDhdfQ==
+eyJoaXN0b3J5IjpbLTczMTA5MTg2NiwtMTcyNTQ0NDkwOF19
 -->
