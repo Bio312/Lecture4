@@ -235,6 +235,10 @@ go to the lab 2 directory
 
 Turn on your instances web server:
 
+    sudo service httpd start
+
+In your web browser, type in the IP address of your instance. What does it say?
+
 
 ## Download the scaffold NW_001834348.1 annotation and sequence
 
@@ -334,6 +338,6 @@ Once we have extracted only lines that contain our gene, let's further subset to
 
     grep exon LOC5513668.gff > LOC5513668.mrna.gff
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDIxNjY2ODgsLTczMTA5MTg2NiwtMT
-cyNTQ0NDkwOF19
+eyJoaXN0b3J5IjpbMTM1MzM1MjU2NiwtNzMxMDkxODY2LC0xNz
+I1NDQ0OTA4XX0=
 -->
