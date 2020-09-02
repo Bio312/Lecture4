@@ -219,7 +219,7 @@ list the directory contents
     ls
 
 
-How many directories are in the directory "labs"?
+## How many directories are in the directory "labs"?
 
 You can get there:
 
@@ -242,25 +242,17 @@ Now count the number of directories.
 Answer this question with an integer on Blackboard.
 
 
-Turn on your instances web server:
+## Turn on your instance's web server:
 
     sudo service httpd start
 
 In your web browser, type in the IP address of your instance. What does it say?
 
 
-# Part II: Gene Analysis in the Shell
+# Part II: Gene Analysis in the Shell (Beginning of Lab 2)
 
 ## Exploring LOC5513668, as in Lab 1
 ## Download the scaffold NW_001834348.1 annotation and sequence
-
-list the directory contents
-
-    ls
-
-go to the lab 2 directory
-
-    cd labs/lab2
 
 
   We will use the program ncbi-acc-download to grab files from Genbank
@@ -335,6 +327,6 @@ Once we have extracted only lines that contain our gene, let's further subset to
 
     grep exon LOC5513668.gff > LOC5513668.mrna.gff
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyMzM0NzYyLDEzNTMzNTI1NjYsLTczMT
-A5MTg2NiwtMTcyNTQ0NDkwOF19
+eyJoaXN0b3J5IjpbMTAxOTc3MjM3MywxMzUzMzUyNTY2LC03Mz
+EwOTE4NjYsLTE3MjU0NDQ5MDhdfQ==
 -->
