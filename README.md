@@ -213,9 +213,9 @@ Type commands that are indented and in fixed width font into your terminal once 
     echo Hello World
 
 
-# Part II: Gene Analysis in the Shell
 
-## Exploring LOC5513668, as in Lab 1
+
+
 
 After you have connected to your instance through the terminal, let's try to conduct parts of Lab 1 from the command line.
 
@@ -231,7 +231,29 @@ list the directory contents
 
 go to the lab 2 directory
 
-    cd labs/lab2
+    cd ~/labs/lab2
+
+How many directories are in the directory "labs"?
+
+You can get there:
+
+cd  ~/labs
+
+or, from your home directory:
+
+cd  labs
+
+See what is in the directory:
+
+ls
+
+To see only directories (not files), try:
+
+ls -d */
+
+Now count the number of directories.
+
+Answer this question with an integer.
 
 Turn on your instances web server:
 
@@ -240,6 +262,9 @@ Turn on your instances web server:
 In your web browser, type in the IP address of your instance. What does it say?
 
 
+# Part II: Gene Analysis in the Shell
+
+## Exploring LOC5513668, as in Lab 1
 ## Download the scaffold NW_001834348.1 annotation and sequence
 
 list the directory contents
@@ -295,21 +320,6 @@ Look at the Genbank file using the less function. Press the space bar to go down
 
  
 
-> 1. What command would you type to look at the FASTA file you just downloaded? Choose all correct answers. [Blackboard]
-> Why are these correct or incorrect? [GitHub]
-> 
-> more NW_001834348.1
-> 
-> more NW_001834348.1.fa
-> 
-> less NW_001834348.1.FA
-> 
-> less NW_001834348.1.fa
-> 
-> cat NW_001834348.1.fa
-
-  
-
 Download the GFF3 file; read about the GFF format here: https://en.wikipedia.org/wiki/General_feature_format
 
     ncbi-acc-download -F gff3 NW_001834348.1
@@ -338,6 +348,6 @@ Once we have extracted only lines that contain our gene, let's further subset to
 
     grep exon LOC5513668.gff > LOC5513668.mrna.gff
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzM1MjU2NiwtNzMxMDkxODY2LC0xNz
-I1NDQ0OTA4XX0=
+eyJoaXN0b3J5IjpbLTEzODIzOTE2NDMsMTM1MzM1MjU2NiwtNz
+MxMDkxODY2LC0xNzI1NDQ0OTA4XX0=
 -->
