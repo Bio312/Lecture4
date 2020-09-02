@@ -265,6 +265,8 @@ Or, type the following to learn how to use it:
 
 Note: -h is a flag. You will be using lots of flags today!
 
+What does the -m flag stand for? Look in the help file. Answer this on blackboard.
+
 Some information about Command Flag or Option or Switch:
 
 (from https://www.cs.bu.edu/teaching/unix/reference/vocab.html)
@@ -327,6 +329,6 @@ Once we have extracted only lines that contain our gene, let's further subset to
 
     grep exon LOC5513668.gff > LOC5513668.mrna.gff
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTc3MjM3MywxMzUzMzUyNTY2LC03Mz
+eyJoaXN0b3J5IjpbLTY1MDUxNzI5NSwxMzUzMzUyNTY2LC03Mz
 EwOTE4NjYsLTE3MjU0NDQ5MDhdfQ==
 -->
